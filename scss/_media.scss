@@ -1,0 +1,35 @@
+@media (max-width: 1024px) {
+   .header {
+      height: 68px;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      &__menu {
+         width: 480px;
+      }
+
+      &__logo {
+         font-size: 30px;
+      }
+
+      &__main-menu {
+         font-size: 12px;
+      }
+   }
+}
+
+@media (max-width: 380px) {
+   .header {
+      height: 56px;
+      padding-left: 60px;
+      padding-right: 60px;
+
+      &__logo {
+         font-size: 24px;
+      }
+
+      &__main-menu {
+         display: none;
+      }
+   }
+}
